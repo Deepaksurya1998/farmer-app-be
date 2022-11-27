@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "TaskTemplate" ALTER COLUMN "startsAt" SET DATA TYPE TEXT,
+ALTER COLUMN "endsAt" SET DATA TYPE TEXT;
+
+-- AlterTable
+ALTER TABLE "UserTask" ALTER COLUMN "completedAt" SET DATA TYPE TEXT;
